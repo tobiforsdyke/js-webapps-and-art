@@ -18,3 +18,15 @@
 ~~~~
 - Advantages: easy and can be cached for performance
 - Disadvantage: cannot be manipulated via CSS or JS
+
+3) SVG as background image
+- E.G.:
+~~~~
+.main {
+    background: url(svgbackground.svg);
+}
+~~~~
+- Advantages: can be cached and resolution independent
+- Disadvantage: same as img tags, cannot be manipulated with CSS or JS
+
+# Creating SVGs
